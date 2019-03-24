@@ -18,15 +18,15 @@ on a large scale data set.
 
 ## Table of Contents
 1. [Data](#data)
-2. [Exploratory Data Analysis](#exploratory-data-analysis)
-3. [Preprocessing](#preprocessing)
-    * [Download Images to EC2](#download-all-images-to-ec2)
-    * [Crop & Resize Images](#crop-and-resize-all-images)
-    * [Rotate and Mirror All Images](#rotate-and-mirror-all-images)
-4. [CNN Architecture](#neural-network-architecture)
+2. [Extraction and Preprocessing](#preprocessing)
+    * [Download Images to Google Colab](#download-all-images-to-colab)
+    * [Resize Images](#crop-and-resize-all-images)
+    * [Checking Blurness of Images](#Checking-Blur)
+    * [Data Augmentation](#Data-Augmentation)
+3. [CNN Architecture](#neural-network-architecture)
 5. [Results](#results)
-6. [Next Steps](#next-steps)
 7. [References](#references)
+8. [Authors](#Authors)
 
 ## Data
 
@@ -45,16 +45,12 @@ You'll need to install:
 * [pandas](http://pandas.pydata.org/)
 * [Seaborn](https://seaborn.pydata.org/)
 
-## Exploratory Data Analysis
 
-
-
-
-
-## Preprocessing
+## Extraction and Preprocessing
 
 The preprocessing pipeline is the following:
 
+### Download Images to Google Colab
 
 ### Crop and Resize All Images
 All images were scaled down to 256 by 256. Despite taking longer to train, the
@@ -65,7 +61,9 @@ multiple warnings during resizing, due to these images having no color space.
 Because of this, any images that were completely black were removed from the
 training data.
 
-### Rotate and Mirror All Images
+### Checking Blurness of Images
+
+### Data Augmentation
 All images were rotated and mirrored.Images without retinopathy were mirrored;
 images that had retinopathy were mirrored, and rotated 90, 120, 180, and 270
 degrees.
@@ -102,4 +100,5 @@ the cropping and rotations how the majority of noise is removed.
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
 	<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
 </a>
+
 
