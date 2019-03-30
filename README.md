@@ -718,11 +718,18 @@ the cropping and rotations how the majority of noise is removed.
 
 ## Results
 
-<img src="https://raw.githubusercontent.com/abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork/master/Images/firstiteration.png" width="140%">
+First Stage
 
-<img src="https://raw.githubusercontent.com/abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork/master/Images/seconditeration.png" width="140%">
+<img src="https://raw.githubusercontent.com/abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork/master/Images/firstiteration.png" width="120%">
 
-<img src="https://raw.githubusercontent.com/abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork/master/Images/confusionmatrix.png" width="100%">
+Second Stage
+<img src="https://raw.githubusercontent.com/abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork/master/Images/seconditeration.png" width="120%">
+
+Third Stage
+<img src="https://raw.githubusercontent.com/abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork/master/Images/thirditeration.png" width="120%">
+
+Confusion Matrix
+<img src="https://raw.githubusercontent.com/abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork/master/Images/confusionmatrix.png" width="120%">
 
 
 
