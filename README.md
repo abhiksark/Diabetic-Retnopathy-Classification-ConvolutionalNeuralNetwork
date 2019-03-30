@@ -44,6 +44,7 @@ You'll need to install:
 * [Python (Minimum 3)](https://www.continuum.io/blog/developer-blog/python-3-support-anaconda)
 * [pandas](http://pandas.pydata.org/)
 * [Seaborn](https://seaborn.pydata.org/)
+* [Fast.ai](https://seaborn.pydata.org/)
 
 
 ## Extraction and Preprocessing
@@ -716,6 +717,13 @@ the cropping and rotations how the majority of noise is removed.
 
 
 ## Results
+
+<img src="https://raw.githubusercontent.com/abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork/master/Images/firstiteration.png" width="140%">
+
+<img src="https://raw.githubusercontent.com/abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork/master/Images/seconditeration.png" width="140%">
+
+<img src="https://raw.githubusercontent.com/abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork/master/Images/confusionmatrix.png" width="100%">
+
 
 
 
