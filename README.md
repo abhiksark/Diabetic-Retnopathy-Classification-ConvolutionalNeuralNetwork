@@ -704,15 +704,15 @@ the cropping and rotations how the majority of noise is removed.
 | Dropout-615              	| [-1, 512]           	| 0       	|
 | Linear-616               	| [-1, 5]             	| 2565    	|
 
-Total params: 20,070,789
-Trainable params: 2,206,917
-Non-trainable params: 17,863,872
-----------------------------------------------------------------
-Input size (MB): 3.00
-Forward/backward pass size (MB): 2294.66
-Params size (MB): 76.56
-Estimated Total Size (MB): 2374.23
-----------------------------------------------------------------
+##### Total params: 20,070,789
+##### Trainable params: 2,206,917
+##### Non-trainable params: 17,863,872
+##### ----------------------------------------------------------------
+##### Input size (MB): 3.00
+##### Forward/backward pass size (MB): 2294.66
+##### Params size (MB): 76.56
+##### Estimated Total Size (MB): 2374.23
+##### ----------------------------------------------------------------
 
 
 ## Results
